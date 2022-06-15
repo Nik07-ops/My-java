@@ -5,7 +5,7 @@ class MidElementArray{
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter size of array");
             int n=sc.nextInt();
-            int a[]=new int[n];
+            int[] a=new int[n];
             System.out.println("\nEnter element of array");
             for(int i=0;i<n;i++){
              a[i]=sc.nextInt();
